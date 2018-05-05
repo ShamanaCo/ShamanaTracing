@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamana.Tracing.Core", "Shamana.Tracing.Core\Shamana.Tracing.Core.csproj", "{E9A28A05-3EB7-4643-9A07-5865B0B218C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamana.Tracing.Core.Tests", "Shamana.Tracing.Core.Tests\Shamana.Tracing.Core.Tests.csproj", "{A801CD7B-92E0-407B-8ED3-E557E80DB133}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E9A28A05-3EB7-4643-9A07-5865B0B218C3} = {E9A28A05-3EB7-4643-9A07-5865B0B218C3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamana.Tracing.Core.Web", "Shamana.Tracing.Core.Web\Shamana.Tracing.Core.Web.csproj", "{55641954-097F-48E6-868A-ED706D957052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamana.Tracing.Glimpse", "Shamana.Tracing.Glimpse\Shamana.Tracing.Glimpse.csproj", "{E4D827B6-E97D-49FD-B759-64AC8B7CB342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamana.Tracing.Glimpse.Tests", "Shamana.Tracing.Glimpse.Tests\Shamana.Tracing.Glimpse.Tests.csproj", "{CF820700-1FE3-43AC-9D70-512EA162B113}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shamana.Tracing.Unity", "Shamana.Tracing.Unity\Shamana.Tracing.Unity.csproj", "{99C8A41F-4285-460E-B2AC-FE5AD7CB9902}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9A28A05-3EB7-4643-9A07-5865B0B218C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A28A05-3EB7-4643-9A07-5865B0B218C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A28A05-3EB7-4643-9A07-5865B0B218C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A28A05-3EB7-4643-9A07-5865B0B218C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A801CD7B-92E0-407B-8ED3-E557E80DB133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A801CD7B-92E0-407B-8ED3-E557E80DB133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A801CD7B-92E0-407B-8ED3-E557E80DB133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A801CD7B-92E0-407B-8ED3-E557E80DB133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55641954-097F-48E6-868A-ED706D957052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55641954-097F-48E6-868A-ED706D957052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55641954-097F-48E6-868A-ED706D957052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55641954-097F-48E6-868A-ED706D957052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D827B6-E97D-49FD-B759-64AC8B7CB342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D827B6-E97D-49FD-B759-64AC8B7CB342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D827B6-E97D-49FD-B759-64AC8B7CB342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D827B6-E97D-49FD-B759-64AC8B7CB342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF820700-1FE3-43AC-9D70-512EA162B113}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF820700-1FE3-43AC-9D70-512EA162B113}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF820700-1FE3-43AC-9D70-512EA162B113}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF820700-1FE3-43AC-9D70-512EA162B113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C8A41F-4285-460E-B2AC-FE5AD7CB9902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C8A41F-4285-460E-B2AC-FE5AD7CB9902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C8A41F-4285-460E-B2AC-FE5AD7CB9902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C8A41F-4285-460E-B2AC-FE5AD7CB9902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C12BD97-9E8B-4B01-A4EA-CDCD559269CE}
+	EndGlobalSection
+EndGlobal

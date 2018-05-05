@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Shamana.Tracing.Glimpse</id>
+    <version>1.0.0</version>
+    <title>Shamana Tracing Glimpse</title>
+    <authors>Shamana</authors>
+    <owners>Shamana</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/ShamanaCo/ShamanaTracing/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ShamanaCo/ShamanaTracing</projectUrl>
+    <description>Glimpse extension of tracing system for .NET web applications.</description>
+    <copyright>Shamana</copyright>
+    <tags>tracing</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Glimpse" version="1.8.6" />
+        <dependency id="Glimpse.AspNet" version="1.9.2" />
+        <dependency id="Shamana.Tracing.Core" version="1.0.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Shamana.Tracing.Glimpse.dll" target="lib\net45\Shamana.Tracing.Glimpse.dll" />
+    <file src="bin\Release\Shamana.Tracing.Glimpse.pdb" target="lib\net45\Shamana.Tracing.Glimpse.pdb" />
+    <file src="bin\Release\Shamana.Tracing.Glimpse.xml" target="lib\net45\Shamana.Tracing.Glimpse.xml" />
+  </files>
+</package>

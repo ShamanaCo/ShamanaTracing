@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Shamana.Tracing.Unity</id>
+    <version>1.0.0</version>
+    <title>Shamana Tracing Unity</title>
+    <authors>Shamana</authors>
+    <owners>Shamana</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/ShamanaCo/ShamanaTracing/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ShamanaCo/ShamanaTracing</projectUrl>
+    <description>Tracing system for .NET web applications with Unity.</description>
+    <copyright>Shamana</copyright>
+    <tags>tracing</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Shamana.Tracing.Core" version="1.0.0" />
+        <dependency id="System.Collections.Immutable" version="1.4.0" />
+        <dependency id="Unity.Abstractions" version="3.3.0" />
+        <dependency id="Unity.Interception" version="5.5.1" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data.DataSetExtensions" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Shamana.Tracing.Unity.dll" target="lib\net45\Shamana.Tracing.Unity.dll" />
+    <file src="bin\Release\Shamana.Tracing.Unity.pdb" target="lib\net45\Shamana.Tracing.Unity.pdb" />
+    <file src="bin\Release\Shamana.Tracing.Unity.xml" target="lib\net45\Shamana.Tracing.Unity.xml" />
+  </files>
+</package>
